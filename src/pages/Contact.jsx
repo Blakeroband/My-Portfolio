@@ -1,3 +1,4 @@
+// export default function Contact() lets us use the Contact component in other files
 export default function Contact() {
   return (
     <div>

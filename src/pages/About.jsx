@@ -1,3 +1,4 @@
+// export default function About() lets us use the About component in other files
 export default function About() {
   return (
     <div>

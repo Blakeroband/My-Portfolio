@@ -1,3 +1,4 @@
+// export default function Home() lets us use the Home component in other files
 export default function Home() {
   return (
     <div>
