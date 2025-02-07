@@ -1,4 +1,3 @@
-import React from 'react';
 import Nav from './components/NavTabs';
 import {Outlet} from 'react-router-dom';
 
