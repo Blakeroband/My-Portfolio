@@ -23,7 +23,7 @@ export default function Resume() {
       <ul>
         <li>Building, maintaining and repairing computer hardware and software</li>
         <li>Junior Level Web development</li>
-        <li>HTML, CSS, JavaScript, TypeScript, SQL, React, Python, Copilot and Prompt Engineering</li>
+        <li>HTML, CSS, JavaScript, TypeScript, SQL, Node.js, React, Python, Copilot and Prompt Engineering</li>
       </ul>
     </section>
   )

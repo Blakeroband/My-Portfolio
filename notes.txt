@@ -1,0 +1,25 @@
+useState is a React hook that lets you add a state variable to your component. 
+import {useState} from 'React'
+
+const [state, setState] = useState(initialState)
+
+naming convention inside the array brackets is to name variables [something, setSomething] 
+
+parameters 
+initialState: this is the value you want the state to be initially. it can be a value of any type, but there is a special behavior for functions. this argument is ignored after the initial render. 
+if you pass a function as initialState it will be treated as an initializer function. it should be pure, should take no arguments and should retun a value of any type. React will call your initializer function when initializing the component, and store its return value as the initial state.
+
+returns
+useState returns an array with exactly two alues:
+the current state. During the first render, it will match the initialState you have passed. 
+the set function that lets you update the state to a different value and trigger a re-render.
+
+caveats
+because useState is a hook, you can only call it at the top level of your component or your own hooks.
+you can't call it inside loops or conditions. if you need that, extract a new component and move the state into it.
+
+in strict mode, react will call your initializer function twice in order to help you find accidental impurities. This is development-only behavior and does not affect the behavior. The result from one of the calls will be ignored. 
+
+set functions, like setSomething(nextState)
+
+the set function returned by useState lets you update the state to a different value and trigger a re-render. you can pass the next state directly, or a function that ccalculates it from the previous state:
