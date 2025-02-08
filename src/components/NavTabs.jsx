@@ -2,14 +2,9 @@ import { Link, useLocation } from 'react-router-dom';
 
 function NavTabs() {
   const currentPage = useLocation().pathname;
-  const style = {
-    margin: "0 5px",
-    fontWeight: "bold",
-    justifyContent: "flex-end"
-  };
 
   return (
-    <div className='navbar navbar-expand-lg navbar-light bg-light' style={style}>
+    <div id='NavDiv' className='navbar navbar-expand-lg navbar-light bg-light'>
       <ul className='nav nav-tabs'>
         <li className='nav-item'>
           <Link to='/' className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>
