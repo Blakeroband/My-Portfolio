@@ -1,4 +1,4 @@
-
+// the function Resume() adds all of my resume information on the resume page
 export default function Resume() {
   return (
     <section>

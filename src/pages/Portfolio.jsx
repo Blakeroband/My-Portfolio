@@ -1,6 +1,9 @@
 // portfolio cards that are interactable and navigate to the respective portfolio page
+// the function portfolio() adds all of my portfolio information on the portfolio page
+// by using export in the beginning of the function i do not have to have a line at the bottom to allow this function to be exported.
 export default function portfolio() {
   return (
+    // target="_blank" rel="noreferrer" opens the link in a new tab and prevents the page from being able to access the window.opener property. this way the user doesn't have to go back a page to find the website again. rel="noreferrer" stops the page from being able to access the window.opener property
   <>
     <div className='card-container'>
       <div className='card' id='card1'>

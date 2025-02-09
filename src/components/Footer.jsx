@@ -1,3 +1,5 @@
+// this works the same way as the header except it renders the information at the bottom of the page inside the "footer" element
+
 export default function Footer() {
   return (
     <footer>

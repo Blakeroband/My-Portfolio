@@ -1,6 +1,6 @@
 // export default function About() lets us use the About component in other files
 
-
+// adds content and an image to the about page
 export default function About() {
   return (
   <>
