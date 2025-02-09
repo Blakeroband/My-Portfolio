@@ -1,8 +1,25 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  https://img.shields.io/badge/License-MIT-yellow.svg
 
-Currently, two official plugins are available:
+  ## Description
+  This project is my first attempt at created a professional portfolio. it contains an about me section, a contact section, a couple of links to some of my projects and links to my github portfolio.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  ## Table of Contents
+  - [installation](#installation)
+  - [contributions](#contributions)
+  - [license](#license)
+
+  ## installation
+  this project shouldn't require any installation, simply go over to the link provided from netify and check it out!
+
+  ## contributions
+  Tristain Persaud, David Beuning, Jacobus Berghoefer, Anthony Schwab
+
+  ## license
+  MIT license: 
+https://opensource.org/licenses/MIT
+  
+  ## questions
+  feel free to visit my github https://github.com/blakeroband
+  if you have questions, please contact me through my email: Blakeroband@gmail.com
