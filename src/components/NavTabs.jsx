@@ -4,15 +4,11 @@ function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
-    <div id='NavDiv' className='navbar navbar-expand-lg navbar-light bg-light'>
-      <ul className='nav nav-tabs'>
+    <div id='NavDiv' className='navbar'>
+      <h2 id="header-title">Blake Anderson</h2>
+      <ul className='nav-tabs'>
         <li className='nav-item'>
           <Link to='/' className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>
-            Home
-          </Link>
-        </li>
-        <li className='nav-item'>
-          <Link to='/About' className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}>
             About
           </Link>
         </li>

@@ -30,30 +30,33 @@ export default function Contact() {
   return (
     <>
     <section>
-      <h1>Contact Me</h1>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="name">Name:</label>
-        <input
-          type="text"
-          id="name"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
-        <label htmlFor="email">Email:</label>
-        <input
-          type="email"
-          id="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-        <button type="submit">Submit</button>
-        {error && <p>{error}</p>}
-      </form>
+      <div className="homeContainer">
+        <h1>Contact Me</h1>
+        <form onSubmit={handleSubmit}>
+          <label htmlFor="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
+          <label htmlFor="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+          <button type="submit">Submit</button>
+          {error && <p>{error}</p>}
+        </form>
+      </div>
     </section>
     {/* create a section with github link */}
     <div id="contact">
         You can also find my GitHub profile <a href="https://github.com/blakeroband" target="_blank" rel="noopener noreferrer">here</a>.
     </div>
+    
     </>
   );
 }
